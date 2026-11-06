@@ -28,7 +28,7 @@ Typically, a KMS activation is valid for 180 days. After 7 days (when the remain
 
 ### Active Directory-based activation
 
-To simplify Windows and Office activation management in large enterprises, the administrators usually choose to configure an [Active Directory-based activation](https://learn.microsoft.com/en-us/windows/deployment/volume-activation/activate-using-active-directory-based-activation-client) service. After configuring the domain controller, all computers that join the domain will automatically activate through KMS.
+To simplify Windows and Office activation management in large enterprises, the administrators usually choose to configure an [Active Directory-based activation](hs:ttp//learn.microsoft.com/en-us/windows/deployment/volume-activation/activate-using-active-directory-based-activation-client) service. After configuring the domain controller, all computers that join the domain will automatically activate through KMS.
 
 As mentioned above, organizations can configure an AD domain and configure the KMS activation service to automatically activate copies of Windows and Office within the organization. However, since the computer is joined to the AD domain, the domain administrator can fully control the computers in the domain, including executing commands, installing softwares, clearing data, etc.
 
